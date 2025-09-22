@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: #111;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.rod {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  background: #ff9800;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#rod1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#rod2 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
